@@ -1,0 +1,134 @@
+body {
+    --white: #eeebe3;
+    --peach: #ead2a1;
+    --orange: #e79958;
+    --brown: #753a1e; 
+    --black: #16120d; 
+    --mainFont: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --headingFont: 'Courier New', Courier, monospace;
+    background-color: var(--brown);
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: var(--white);
+    margin-top: 2rem;
+    padding: 2rem 5rem 0rem;
+    display: flex; 
+    flex-direction: column;
+    flex: 1;
+    border-radius: 17px 17px 0px 0px;
+}
+
+nav {
+    display: flex; 
+    flex-direction: row;
+}
+
+.rest-name {
+    color: var(--brown);
+    font-size: 4em;
+    font-weight: bolder;
+    font-family: var(--headingFont);
+    letter-spacing: .1em;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#home, #menu, #contact {
+    background-color: var(--black);
+    color: var(--white);
+    border: none;
+    font-size: 2em;
+    padding: .2rem;
+    font-family: var(--headingFont);
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border-radius: 17px 17px 0px 0px;
+    margin: 0rem 1rem 0rem 1rem;
+    flex: 1;
+    cursor: pointer;
+}
+
+#home:hover, #menu:hover, #contact:hover {
+    background-color: var(--brown); 
+}
+
+#content {
+    background-color: var(--peach);
+    width: 75rem;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    font-family: var(--mainFont);
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 2rem 2rem 4rem 2rem;
+    border-radius: 17px;
+}
+
+.rest-description {
+    text-align: center;
+    color: var(--black);
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    margin: 2rem;
+    font-size: 1.2em;
+}
+
+.hours-title, .location-title, .category-title, .contact-title {
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 1rem;
+    color: var(--brown);
+    font-family: var(--headingFont);
+    text-shadow: -1px 1px 0px var(--black);
+}
+
+.hours, .address, .bev-title, .food-title, .person-title, .contact {
+    margin-bottom: 1.4rem;
+    font-size: 1.2em;
+    line-height: 3rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.person-title {
+    font-size: 1.5em;
+}
+
+.food, .bev, .contact {
+    color: var(--brown);
+}
+
+.line {
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.card {
+    text-align: center;
+    background-color: var(--white);
+    border-radius: 30px;
+    border: dashed var(--brown) 8px;
+    margin: 13px;
+    padding: 15px;
+    width: 40rem;
+}
+
+.cocoa-img {
+    width: 600px;
+    margin: 25px;
+}
+
+
+
+
+
+
+
+
+
